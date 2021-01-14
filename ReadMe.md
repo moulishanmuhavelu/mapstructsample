@@ -14,5 +14,5 @@ These are the different scenarios implemented as part of this project
 * Using expressions in the mapper to call custom java implementation
 
 ### Model details
-Source -> Employee.java
-Target -> User.java
+* Source -> Employee.java
+* Target -> User.java
