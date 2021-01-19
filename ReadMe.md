@@ -16,3 +16,6 @@ These are the different scenarios implemented as part of this project
 ### Model details
 * Source -> Employee.java
 * Target -> User.java
+
+Run this command to see the output
+curl localhost:8080/register | python -mjson.tool

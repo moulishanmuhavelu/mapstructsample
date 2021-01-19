@@ -6,7 +6,7 @@ import com.demo.myexperiments.user.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
-@Mapper(componentModel = "spring", uses = AddressMapper.class)
+@Mapper(componentModel = "spring", uses = {AddressMapper.class})
 public interface EmployeeMapper {
 
     @Mapping(target = "userId", source = "id")
